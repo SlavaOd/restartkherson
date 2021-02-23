@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>ReStart Calc</title>
+    <style>
+        button {
+            margin-bottom: 10px;
+        } 
+        .out_add, .out {
+            text-align:center;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container-sm">
+        <div class="fix">
+            <ul class="fix_list">
+                <li class="fix_item">Приймають участь ТТ з кількістю реєстрацій СП через Професіонал від 10шт</li>
+                <li class="fix_item">Враховуються тільки реєстраціі СП, проданих на ТТ, через СТС</li>
+                <li class="fix_item">Додатковий бонус не може перевищуваати суму бонуса за реєстрації</li>
+                <li class="fix_item">На бонус впливає тип проданого СП</li>
+                <li class="fix_item">Калькулятор не враховує бонуси за апсельні операції</li>
+            </ul>
+            <button class="back">Назад</button>
+        </div>
+        <h2 class="main_name">reStart</h2>
+        <p class="city">Херсон</p>
+        <form action="">
+            <p class="radio1"><input type="radio" checked  name="radio" id=""> Національний (поріг: 10)</p>
+            <!-- <p class="radio1"><input type="radio" checked  name="radio" id=""> Національний (поріг: 10)</p> -->
+            <!-- <p class="radio2"><input type="radio"  name="radio" id=""> Регіональний (поріг: 15) </p>
+            <p class="radio3"><input type="radio"  name="radio" id=""> Регіональний (поріг: 5) </p> -->
+        </form>
+        <p class="name">к-ть реєстрацій сп Спілкування</p>
+        <input class="spilk inp" placeholder='кількість реєстрацій' type="text" name="" id="">
+        <p class="name">к-ть реєстрацій сп Розваги/Смачний</p>
+        <input class="rozvag inp" placeholder='кількість реєстрацій' type="text" name="" id="">
+        <p class="name">к-ть реєстрацій сп Відео/Максимальний</p>
+        <input class="video inp" placeholder='кількість реєстрацій' type="text" name="" id="">
+        <p class="reg name"></p>
+        <p class="name">Кількість апсельних операцій</p>
+        <input class="upsell inp" placeholder='кількість операцій' type="text" name="" id="">
+        <h3 class="out"></h3>
+        <h3 class="out_add"></h3>
+        <div class="flex">
+            <button class="result">Підрахувати</button>
+            <button class="alt">Оновити</button>
+            <button class="main">Умови акції</button>
+            <a href="./prez/prez.html"><button>Презентація</button></a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

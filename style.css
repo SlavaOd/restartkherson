@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container-sm {
+    width: 500px;
+}
+
+.main_name {
+    font-size: 200%;
+    width: 30%;
+    margin-left: auto;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    text-align: center;
+    /* margin-top: 5%; */
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+
+.div {
+    border: 2px solid black;
+}
+
+.inp {
+    margin-bottom: 6%;
+    display: block;
+    width: 200px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+
+}
+.inp:last-of-type {
+    margin-bottom: 4%;
+    margin-bottom: 6%;
+}
+.fix {
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.875);
+}
+
+.fix_list {
+    color: #ffffff;
+    font-size: 100%;
+    /* border: 2px solid red; */
+    width: 90%;
+    
+    padding-top: 20%;
+    margin-bottom: 20%;
+}
+.fix_item {
+    margin-bottom: 5%;
+}
+.back {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+.name {
+    margin-bottom: 3%;
+    text-align: center;
+    
+}
+
+.reg, .quantity {
+    font-weight: 600;
+}
+.itog2 {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.itog {
+    text-align: center;
+}
+.radio1,.radio2 {
+    margin-bottom: 0;
+    display: none;
+}
+.radio2 {
+    margin-bottom: 0;
+}
+.flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    margin: 0 auto;
+}
+button {
+    width: 120px;
+}
+
+.city {
+    width: 30%;
+    margin-left: auto;
+    padding-left: 35px;
+    position: relative;
+}
+.city::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    background-image: url(./Kyivstar.png);
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
