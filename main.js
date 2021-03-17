@@ -36,7 +36,7 @@ result.onclick = function() {
     x = rozvag.value
     y = video.value
     z = spilk.value
-    resSum = (x*30) + (y*50) + (z*20)
+    resSum = (x*30) + (y*50)
     resNum = +x + +y + +z
     reg.innerHTML = 'Разом:' + '<br>' + 'Реєстрацій: ' + resNum + 'шт ' +  '<br>' + ' Бонус: ' + resSum + 'грн '
     if (resNum < pln) {
